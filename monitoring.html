@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety Mode</title>
+    <link rel="stylesheet" href="stylem.css">
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <span class="safety-status">Safety Mode is Currently On</span>
+            <button class="toggle-mode">&#128065;</button> <!-- Eye icon for toggling -->
+        </div>
+
+        <!-- Safety Mode Section -->
+        <div class="safety-mode">
+            <h1>Safety Mode</h1>
+            <button id="sos-btn" class="sos-alert">Send SOS Alert</button>
+
+            <div class="status-section">
+                <p>Current Status: <span id="status-text" class="status-monitoring">MONITORING</span></p>
+            </div>
+
+            <!-- Detected Environment Section -->
+            <div class="detected-env">
+                <h3>DETECTED ENVIRONMENT:</h3>
+                <p id="environment-status">Analyzing Data...</p>
+            </div>
+
+            <p class="message">Stay Safe. Stay Strong. We are with you.</p>
+
+            <!-- Exit Safety Mode Button -->
+            <button class="exit-btn">EXIT SAFETY MODE</button>
+        </div>
+    </div>
+
+    <script src="scriptm.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety App</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+    <!-- Safety Mode Section -->
+    <div class="safety-mode">
+        <p id="safety-status">Safety Mode is Currently Off <span id="safety-icon">👁️‍🗨️</span></p>
+    </div>
+
+    <!-- Map Section -->
+    <div class="map-section">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508474!2d144.95565131540995!3d-37.81732797975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577fa1d0837f688!2sFlinders%20St%20Station!5e0!3m2!1sen!2sin!4v1634712830414!5m2!1sen!2sin"
+            width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+        <button onclick="window.location.href='nearby_locations.html'">See Nearby Safe Locations</button>
+        <button onclick="sendSOSMessage()">Send SOS Message</button>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="bottom-nav">
+        <!-- Call Button -->
+        <div class="nav-item" onclick="window.location.href='call.html'">
+            <img src="call-icon.png" alt="Call">
+            <p>Call</p>
+        </div>
+
+        <!-- Shield for Safety Mode -->
+        <div class="nav-item" id="safety-icon-btn">
+            <img src="shield-icon.png" alt="Safety Mode">
+            <p>Safety Mode</p>
+        </div>
+
+        <!-- Secure Journey Button -->
+        <div class="nav-item" onclick="window.location.href='safejourney.html'">
+            <img src="journey-icon.png" alt="Secure Journey">
+            <p>Secure Journey</p>
+        </div>
+
+        <!-- Profile Button -->
+        <div class="nav-item" onclick="window.location.href='login.html'">
+            <img src="profile-icon.png" alt="Profile">
+            <p>Profile</p>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>

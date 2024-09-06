@@ -1,0 +1,128 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e5a75, #003340);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container */
+.container {
+    width: 350px;
+    background-color: #1e3b4d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.safety-status {
+    color: #b3ff00;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.toggle-mode {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Safety Mode Title */
+.safety-mode h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* SOS Button */
+.sos-alert {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.sos-alert:hover {
+    background-color: #ff4d4d;
+}
+
+/* Current Status Section */
+.status-section {
+    margin-bottom: 20px;
+}
+
+.status-safe {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.status-monitoring {
+    color: #6b8e23; /* Olive green for Monitoring status */
+    font-weight: bold;
+}
+
+.status-unsafe {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Detected Environment Section */
+.detected-env h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.detected-env p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Message Text */
+.message {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* Exit Button */
+.exit-btn {
+    background-color: #009900;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.exit-btn:hover {
+    background-color: #00cc00;
+}

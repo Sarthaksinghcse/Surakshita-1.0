@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call 101</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .call-btn {
+            background-color: #ff0000;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .call-btn:hover {
+            background-color: #ff4d4d;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="call-btn" class="call-btn">Call 101</button>
+
+    <script>
+        document.getElementById("call-btn").addEventListener("click", function() {
+            // Redirect to the phone dialer with the number 101
+            window.location.href = "tel:101";
+        });
+    </script>
+
+</body>
+</html>

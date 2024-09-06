@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #12063b, #0C4864);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 14px;
+    margin: 10px 0 20px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.get-started {
+    background-color: #343434;
+    color: white;
+}
+
+.login {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
